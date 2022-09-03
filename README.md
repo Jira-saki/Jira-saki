@@ -1,3 +1,4 @@
+![Logo](https://github-readme-stats.vercel.app/api?username=Jira-saki&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)
 
 # Hi, I'm Jira! 👋
 
@@ -20,5 +21,5 @@ I'm a Data Science learner : Python Data Analytics, Data Engineering, Machine Le
 6. GCP
 
 
-![Logo](https://github-readme-stats.vercel.app/api?username=Jira-saki&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)
+
 
