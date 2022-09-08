@@ -4,7 +4,7 @@
 
 
 ## 🚀 About Me
-I'm a Data Science learner : Python Data Analytics, Data Engineering, Machine Learning, AWS & GCP Platform. 
+I'm a full Stack developer learner : HTML&CSS, Javascript, React, Nodejs, PostgreSQL, MongoDB, AWS Cloud Platform. 
 
 
 ## 🔗 Links
@@ -13,12 +13,12 @@ I'm a Data Science learner : Python Data Analytics, Data Engineering, Machine Le
 
 
 ## 🛠 Skills
-1. Python
-2. SQL
-3. ETL, ELT
-4. Data Analytics
-5. AWS
-6. GCP
+1. HTML5
+2. CSS
+3. Javascript
+4. Python
+5. SQL
+6. AWS
 
 
 
