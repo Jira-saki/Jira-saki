@@ -3,7 +3,7 @@
 # Hi, I'm Jira! 👋
 
 ## 🚀 About Me
-I'm a full Stack developer learner : HTML&CSS, Javascript, React, Nodejs, PostgreSQL, MongoDB, AWS Cloud Platform. 
+I'm a UX design learner.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Jira-saki/)
