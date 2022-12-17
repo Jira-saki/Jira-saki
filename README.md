@@ -3,7 +3,7 @@
 # Hi, I'm Jira! 👋
 
 ## 🚀 About Me
-I'm a UX design learner.
+I'm a Python ML learner.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Jira-saki/)
