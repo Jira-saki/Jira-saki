@@ -3,7 +3,8 @@
 # Hi, I'm Jira! 👋
 
 ## 🚀 About Me
-I'm a Python ML learner.
+I design & develop.
+
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Jira-saki/)
