@@ -12,7 +12,7 @@ I specialize in building secure and scalable infrastructure using **AWS** and **
 ### 🛠️ Tech Stack
 
 * ☁️ **Cloud:** AWS (SAA-C03), S3, EC2, VPC, CloudFront, EKS
-* 🏗️ **IaC:** Terraform, 
+* 🏗️ **IaC:** Terraform
 * 🐳 **Container:** Docker, Kubernetes (Learning for CKA)
 * 🐧 **OS:** Linux (Ubuntu) - 2+ years exp
 * 🐍 **Scripting:** Bash, Python
