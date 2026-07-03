@@ -22,5 +22,7 @@ I specialize in building secure and scalable infrastructure using **AWS** and **
 ### 🌱 Currently Learning
 * **Kubernetes:** preparing for CKA Certification (Exam: July 2026)
 * **CI/CD:** GitHub Actions Automation
+* **AWS Step Functions**
+* **Checkov** (IaC Scan)
 
 ---
