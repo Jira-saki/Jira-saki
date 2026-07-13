@@ -28,6 +28,8 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 
 ### 🎯 Certifications & Roadmap (2026)
 * 🥇 **AWS Certified Solutions Architect – Associate (SAA-C03)** ✅
+* 🛡️ **Google Cybersecurity Professional Certificate** ✅
+* 📊 **AWS Certified Data Analytics – Specialty (Expired)** 📜 *(Strong foundational architecture knowledge)*
 * ☸️ **Certified Kubernetes Administrator (CKA)** ⏳ *(Exam: July 2026 - Final Prep)*
 * 💜 **HashiCorp Certified: Terraform Associate** ⏳ *(Targeting: August 2026)*
 * 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Targeting: Q4 2026)*
