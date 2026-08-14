@@ -8,28 +8,35 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 
 ---
 
-### 🚀 Featured Projects
-* 🛡️ **[AWS-EKS-Hardened-Infrastructure](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)** `v1.0.0` - Enterprise-grade, highly secure Amazon EKS cluster deployment automated via Terraform modules. Features 3-tier network isolation, IRSA, KMS encryption, and automated IaC security scanning (`Checkov`/`Trivy`).
-* 🌐 **[iot-eks-hardened-project](https://github.com/Jira-saki/iot-eks-hardened-project)** - Scalable cloud infrastructure optimized for high-throughput IoT data ingestion using EKS, Karpenter, and containerized microservices.
-* 📊 **[aws-dataops-platform](https://github.com/Jira-saki/aws-dataops-platform)** *(Active)* - Modern DataOps platform orchestrating automated ELT pipelines using **dlt** and self-hosted **Prefect Server** on Kubernetes with S3-compatible storage (Floci).
+### 🚀 Featured Engineering Projects (Platform Series)
+
+* 🔍 **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**  
+  *Production Troubleshooting & OS Internals* — Deep-dive investigation and automated remediation of parent-child process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) across complex Linux environments.
+
+* 🛡️ **[EP2: AWS-EKS-Hardened-Infrastructure](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)** `v1.0.0`  
+  *Cloud & Container Hardening* — Enterprise-grade, immutable Amazon EKS deployment using **Bottlerocket OS**, automated via Terraform. Implements strict 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and automated Shift-Left IaC security scanning (`Checkov` & `Trivy`).
+
+* 📊 **[EP3: aws-dataops-platform](https://github.com/Jira-saki/aws-dataops-platform)**  
+  *DataSecOps & Serverless Lakehouse* — Production-ready DataOps platform featuring automated PII masking/hashing, Apache Parquet transformations, and an S3 Lakehouse orchestrated with **AWS Glue Data Catalog (Partition Projection)**, **Amazon Athena**, and automated `pytest` suites.
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
 
-* ☁️ **Cloud Platform:** AWS (Solutions Architect Associate), GCP
+* ☁️ **Cloud Platform:** AWS (Solutions Architect Associate, Data Engineer Track), GCP
 * 🏗️ **Infrastructure as Code (IaC):** Terraform (Reusable Modules, State Management)
-* 🐳 **Container & Orchestration:** Kubernetes (CKA Certified, EKS), Docker, Helm, Karpenter
-* 🐧 **Core OS & Networking:** Linux (Ubuntu/Debian) Server Administration (2+ Years Production Experience)
-* 📈 **Observability & Security:** OpenSearch/Elasticsearch, Datadog, Checkov, Trivy
-* 🚀 **CI/CD & Automation:** GitHub Actions, Bash Scripting, Python (Asyncio/Data Flows)
+* 🐳 **Container & Orchestration:** Kubernetes (CKA Certified, EKS), Bottlerocket, Docker, Helm, Karpenter
+* 🐧 **Core OS & Networking:** Linux (Ubuntu/Debian) Server Administration, Shell Scripting, POSIX Internals
+* 📊 **Data & DataSecOps:** AWS Glue, Athena, S3 Lakehouse, Apache Parquet, Data Masking/Hashing
+* 📈 **Observability & Security:** OpenSearch/Elasticsearch, Datadog, Checkov, Trivy, IAM IRSA
+* 🚀 **CI/CD & Automation:** GitHub Actions, Bash, Python (pytest, Data Ingestion Pipelines)
 
 ---
 
 ### 🎯 Certifications & Active Roadmap
 
 #### ☸️ Cloud Infrastructure & Container Orchestration
-* ☸️ **Certified Kubernetes Administrator (CKA)** ✅ *(Issued: Aug 2026)*
-* 🥇 **AWS Certified Solutions Architect – Associate** ✅ *(Issued: Jan 2026 · Expires: Jan 2029)*
+* ☸️ **Certified Kubernetes Administrator (CKA)** ✅ *(Score: 84% · Issued: Aug 2026)*
+* 🥇 **AWS Certified Solutions Architect – Associate (SAA)** ✅ *(Issued: Jan 2026 · Expires: Jan 2029)*
 
 #### 🛡️ Security Hardening
 * 🛡️ **Google Cybersecurity Specialization** ✅ *(Issued: Oct 2024)*
@@ -38,6 +45,7 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 * ⚙️ **IBM Data Engineering Foundations Specialization** ✅ *(Issued: Aug 2021)*
 * 📈 **Google Data Analytics Specialization** ✅ *(Issued: Jul 2021)*
 
-#### ⏳ Active Milestones & Upcoming Targets (2026)
-* 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Targeting: Late August 2026)*
-* 🧠 **AWS Certified Machine Learning – Associate (MLA)** ⏳ *(Targeting: Late October 2026)*
+#### ⏳ Active Milestones & Upcoming Targets (2026–2027)
+* 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Targeting: Sep 2026)*
+* 🧠 **AWS Certified Machine Learning – Associate (MLA)** ⏳ *(Targeting: Q4 2026)*
+* 🔒 **AWS Certified Security – Specialty (SCS)** ⏳ *(Targeting: Q1 2027)*
