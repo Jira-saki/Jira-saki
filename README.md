@@ -17,7 +17,7 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
   *Cloud & Container Hardening* — Enterprise-grade, immutable Amazon EKS deployment using **Bottlerocket OS**, automated via Terraform. Implements strict 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and automated Shift-Left IaC security scanning (`Checkov` & `Trivy`).
 
 * 📊 **[EP3: aws-dataops-platform](https://github.com/Jira-saki/aws-dataops-platform)**  
-  *DataSecOps & Serverless Lakehouse* — Production-ready DataOps platform featuring automated PII masking/hashing, Apache Parquet transformations, and an S3 Lakehouse orchestrated with **AWS Glue Data Catalog (Partition Projection)**, **Amazon Athena**, and automated `pytest` suites.
+  *DataSecOps & Serverless Lakehouse — Enterprise-grade, local-first DataOps pipeline (dlt + DuckDB) bridging to an AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, automated DLQ routing, AWS Glue Partition Projection (zero-crawler design), sub-kilobyte Athena query scans, and automated GitHub Actions CI.
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
@@ -26,7 +26,7 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 * 🏗️ **Infrastructure as Code (IaC):** Terraform (Reusable Modules, State Management)
 * 🐳 **Container & Orchestration:** Kubernetes (CKA Certified, EKS), Bottlerocket, Docker, Helm, Karpenter
 * 🐧 **Core OS & Networking:** Linux (Ubuntu/Debian) Server Administration, Shell Scripting, POSIX Internals
-* 📊 **Data & DataSecOps:** AWS Glue, Athena, S3 Lakehouse, Apache Parquet, Data Masking/Hashing
+* 📊 **Data & DataSecOps:** AWS Glue, Athena, S3 Lakehouse, Apache Parquet, DuckDB, dlt (Data Load Tool), Data Masking/Hashing
 * 📈 **Observability & Security:** OpenSearch/Elasticsearch, Datadog, Checkov, Trivy, IAM IRSA
 * 🚀 **CI/CD & Automation:** GitHub Actions, Bash, Python (pytest, Data Ingestion Pipelines)
 
