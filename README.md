@@ -10,14 +10,22 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 
 ### 🚀 Featured Engineering Projects (Platform Series)
 
-* 🔍 **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**  
-  *Production Troubleshooting & OS Internals* — Deep-dive investigation and automated remediation of parent-child process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) across complex Linux environments.
+* **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**
+  * **Domain:** Linux OS Internals & Production Troubleshooting
+  * **Highlights:** Deep-dive investigation and automated remediation of parent-child process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`).
 
-* 🛡️ **[EP2: AWS-EKS-Hardened-Infrastructure](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)** `v1.0.0`  
-  *Cloud & Container Hardening* — Enterprise-grade, immutable Amazon EKS deployment using **Bottlerocket OS**, automated via Terraform. Implements strict 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and automated Shift-Left IaC security scanning (`Checkov` & `Trivy`).
+* **[EP2: AWS-EKS-Hardened-Infrastructure](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)**
+  * **Domain:** Cloud & Container Hardening
+  * **Highlights:** Immutable Amazon EKS deployment using Bottlerocket OS and Terraform. Features 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and Shift-Left IaC security scanning (Checkov & Trivy).
 
-* 📊 **[EP3: aws-dataops-platform](https://github.com/Jira-saki/aws-dataops-platform)**  
-  *DataSecOps & Serverless Lakehouse — Enterprise-grade, local-first DataOps pipeline (dlt + DuckDB) bridging to an AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, automated DLQ routing, AWS Glue Partition Projection (zero-crawler design), sub-kilobyte Athena query scans, and automated GitHub Actions CI.
+* **[EP3: aws-dataops-platform](https://github.com/Jira-saki/aws-dataops-platform)**
+  * **Domain:** DataSecOps & Serverless Lakehouse
+  * **Highlights:** Local-first DataOps pipeline (`dlt` + DuckDB) to AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, Glue Partition Projection (zero-crawler), sub-kilobyte Athena scans, and GitHub Actions CI.
+
+* **[EP4: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
+  * **Domain:** Cloud-Native MLOps & High-Concurrency Inference
+  * **Highlights:** Declarative AI/ML serving platform on EKS with KServe, Knative (Scale-to-Zero), Istio Service Mesh, and ArgoCD GitOps. Features Karpenter dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
+    
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
