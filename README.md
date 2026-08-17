@@ -1,4 +1,4 @@
-# [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jira-saki/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jirasak-pakdeeto-900665214/) [![CKA](https://img.shields.io/badge/CKA-Certified-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto) [![AWS SAA](https://img.shields.io/badge/AWS-SAA%20Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jira-saki/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jirasak-pakdeeto-900665214/) [![CKA](https://img.shields.io/badge/CKA-Certified-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto) [![AWS SAA](https://img.shields.io/badge/AWS-SAA%20Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto)
 
 ### Hi there 👋 I'm Jirasak (Jira)
 **Cloud & Data Infrastructure Engineer**
@@ -25,18 +25,18 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 * **[EP4: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
   * **Domain:** Cloud-Native MLOps & High-Concurrency Inference
   * **Highlights:** Declarative AI/ML serving platform on EKS with KServe, Knative (Scale-to-Zero), Istio Service Mesh, and ArgoCD GitOps. Features Karpenter dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
-    
+
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
 
 * ☁️ **Cloud Platform:** AWS (Solutions Architect Associate, Data Engineer Track), GCP
-* 🏗️ **Infrastructure as Code (IaC):** Terraform (Reusable Modules, State Management)
-* 🐳 **Container & Orchestration:** Kubernetes (CKA Certified, EKS), Bottlerocket, Docker, Helm, Karpenter
-* 🐧 **Core OS & Networking:** Linux (Ubuntu/Debian) Server Administration, Shell Scripting, POSIX Internals
-* 📊 **Data & DataSecOps:** AWS Glue, Athena, S3 Lakehouse, Apache Parquet, DuckDB, dlt (Data Load Tool), Data Masking/Hashing
-* 📈 **Observability & Security:** OpenSearch/Elasticsearch, Datadog, Checkov, Trivy, IAM IRSA
-* 🚀 **CI/CD & Automation:** GitHub Actions, Bash, Python (pytest, Data Ingestion Pipelines)
+* 🏗️ **Infrastructure as Code (IaC) & GitOps:** Terraform (Modules, State), ArgoCD (GitOps)
+* 🐳 **Container & Orchestration:** Kubernetes (CKA Certified, EKS), Bottlerocket, Docker, Helm, Karpenter, Istio, Knative, KServe
+* 🐧 **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, Shell Scripting, POSIX Internals
+* 📊 **Data, MLOps & DataSecOps:** AWS Glue, Athena, S3 Lakehouse, Apache Parquet, DuckDB, dlt, Data Masking/Hashing, Model Serving
+* 📈 **Observability & Security:** Prometheus, Grafana, OpenSearch, Datadog, Checkov, Trivy, IAM IRSA
+* 🚀 **CI/CD & Automation:** GitHub Actions, Bash, Python (pytest, Data Pipelines)
 
 ---
 
