@@ -22,10 +22,9 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
   * **Domain:** DataSecOps & Serverless Lakehouse
   * **Highlights:** Local-first DataOps pipeline (`dlt` + DuckDB) to AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, Glue Partition Projection (zero-crawler), sub-kilobyte Athena scans, and GitHub Actions CI.
 
-* **[EP4: aws-realtime-cdc-pipeline** `🚧 In Progress`
-  * **Domain:** 
-  * **Highlights:** 
-
+* **[EP4: aws-realtime-cdc-pipeline](https://github.com/Jira-saki/aws-realtime-CDC-pipeline)** `🚧 In Progress`
+  * **Domain:** Real-Time Data Platform & Managed CDC Streaming
+  * **Highlights:** Production-grade Change Data Capture (CDC) pipeline ingesting multi-domain data streams (Security Audit Logs & Credit Card Fraud) using AWS RDS MySQL (`binlog_format = ROW`) and AWS DMS to S3 Data Lake (Parquet format). Provisioned 100% via Terraform with automated PII/IP masking, Glue Catalog partition sync, sub-second Athena queries, and CloudWatch CDC latency observability.
 * **[EP5: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
   * **Domain:** Cloud-Native MLOps & High-Concurrency Inference
   * **Highlights:** Declarative AI/ML serving platform on EKS with KServe, Knative (Scale-to-Zero), Istio Service Mesh, and ArgoCD GitOps. Features Karpenter dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
@@ -58,6 +57,7 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 * 📈 **Google Data Analytics Specialization** ✅ *(Issued: Jul 2021)*
 
 #### ⏳ Active Milestones & Upcoming Targets (2026–2027)
-* 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Targeting: Sep 2026)*
+* 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Scheduled: Sep 2026)*
 * 🔒 **AWS Certified Security – Specialty (SCS)** ⏳ *(Targeting: Q4 2026)*
-* ☸️ **Certified Kubernetes Security Specialist (CKS)** ✅ *(Targeting: Q4 2026)*
+* ☸️ **Certified Kubernetes Security Specialist (CKS)** ⏳ *(Targeting: Q1 2027)*
+
