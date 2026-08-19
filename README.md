@@ -22,7 +22,11 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
   * **Domain:** DataSecOps & Serverless Lakehouse
   * **Highlights:** Local-first DataOps pipeline (`dlt` + DuckDB) to AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, Glue Partition Projection (zero-crawler), sub-kilobyte Athena scans, and GitHub Actions CI.
 
-* **[EP4: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
+* **[EP4: ** `🚧 In Progress`
+  * **Domain:** 
+  * **Highlights:** 
+
+* **[EP5: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
   * **Domain:** Cloud-Native MLOps & High-Concurrency Inference
   * **Highlights:** Declarative AI/ML serving platform on EKS with KServe, Knative (Scale-to-Zero), Istio Service Mesh, and ArgoCD GitOps. Features Karpenter dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
 
@@ -55,5 +59,5 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 
 #### ⏳ Active Milestones & Upcoming Targets (2026–2027)
 * 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Targeting: Sep 2026)*
-* 🧠 **AWS Certified Machine Learning – Associate (MLA)** ⏳ *(Targeting: Q4 2026)*
-* 🔒 **AWS Certified Security – Specialty (SCS)** ⏳ *(Targeting: Q1 2027)*
+* 🔒 **AWS Certified Security – Specialty (SCS)** ⏳ *(Targeting: Q4 2026)*
+* ☸️ **Certified Kubernetes Security Specialist (CKS)** ✅ *(Targeting: Q4 2026)*
