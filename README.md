@@ -22,7 +22,7 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
   * **Domain:** DataSecOps & Serverless Lakehouse
   * **Highlights:** Local-first DataOps pipeline (`dlt` + DuckDB) to AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, Glue Partition Projection (zero-crawler), sub-kilobyte Athena scans, and GitHub Actions CI.
 
-* **[EP4: ** `🚧 In Progress`
+* **[EP4: aws-realtime-cdc-pipeline** `🚧 In Progress`
   * **Domain:** 
   * **Highlights:** 
 
