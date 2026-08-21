@@ -53,6 +53,7 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 * 🛡️ **Google Cybersecurity Specialization** ✅ *(Issued: Oct 2024)*
 
 #### 📊 Data & Platform Engineering Foundations
+* 📊 **AWS Certified Data Analytics – Specialty (DAS)** 📜 *(Expired / Retired · Credly Verified)*
 * ⚙️ **IBM Data Engineering Foundations Specialization** ✅ *(Issued: Aug 2021)*
 * 📈 **Google Data Analytics Specialization** ✅ *(Issued: Jul 2021)*
 
