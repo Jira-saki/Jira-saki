@@ -58,6 +58,5 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 
 #### ⏳ Active Milestones & Upcoming Targets (2026–2027)
 * 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Scheduled: Sep 2026)*
-* 🔒 **AWS Certified Security – Specialty (SCS)** ⏳ *(Targeting: Q4 2026)*
-* ☸️ **Certified Kubernetes Security Specialist (CKS)** ⏳ *(Targeting: Q1 2027)*
+* ☸️ **Certified Kubernetes Security Specialist (CKS)** ⏳ *(Targeting: Q4 2026)*
 
