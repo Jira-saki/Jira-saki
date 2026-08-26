@@ -10,22 +10,21 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
 
 ### 🚀 Featured Engineering Projects (Platform Series)
 
-* **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**
-  * **Domain:** Linux OS Internals & Production Troubleshooting
-  * **Highlights:** Deep-dive investigation and automated remediation of parent-child process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`).
+* 🔍 **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**  
+  *Domain:* Linux OS Internals & Production Troubleshooting  
+  *Highlights:* Deep-dive investigation and automated remediation of parent-child process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`).
 
-* **[EP2: AWS-EKS-Hardened-Infrastructure](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)**
-  * **Domain:** Cloud & Container Hardening
-  * **Highlights:** Immutable Amazon EKS deployment using Bottlerocket OS and Terraform. Features 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and Shift-Left IaC security scanning (Checkov & Trivy).
+* 🛡️ **[EP2: AWS-EKS-Hardened-Infrastructure](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)** `v1.0.0`  
+  *Domain:* Cloud & Container Hardening  
+  *Highlights:* Immutable Amazon EKS deployment using **Bottlerocket OS** and Terraform. Features 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and Shift-Left IaC security scanning (`Checkov` & `Trivy`).
 
-* **[EP3: Unified Batch & Streaming DataSecOps Lakehouse ( Serverless & FinOps)](https://github.com/Jira-saki/aws-dataops-platform)** `🚧 In Progress`
-  * **Domain:** DataSecOps & Serverless Lakehouse
-  * **Highlights:** Local-first DataOps pipeline (`dlt` + DuckDB) to AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, Glue Partition Projection (zero-crawler), sub-kilobyte Athena scans, and GitHub Actions CI.
+* 📊 **[EP3: Unified Batch & Streaming DataSecOps Lakehouse (Serverless & FinOps)](https://github.com/Jira-saki/aws-dataops-platform)** 🚧 *In Progress*  
+  *Domain:* DataSecOps & Serverless Lakehouse  
+  *Highlights:* Dual-engine ingestion pipeline (Batch via `dlt` + Streaming via **Amazon Data Firehose**) to an S3 Parquet Lakehouse via Terraform. Features Salted SHA-256 PII masking, **AWS Glue Partition Projection** (zero-crawler design), sub-kilobyte Athena query scans, and GitHub Actions CI.
 
-* **[EP4: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
-  * **Domain:** Cloud-Native MLOps & High-Concurrency Inference
-  * **Highlights:** Declarative AI/ML serving platform on EKS with KServe, Knative (Scale-to-Zero), Istio Service Mesh, and ArgoCD GitOps. Features Karpenter dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
-
+* 🧠 **[EP4: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** 🚧 *In Progress*  
+  *Domain:* Cloud-Native MLOps & High-Concurrency Inference  
+  *Highlights:* Declarative AI/ML serving platform on EKS with **KServe**, **Knative** (Scale-to-Zero), **Istio Service Mesh**, and **ArgoCD GitOps**. Features **Karpenter** dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
