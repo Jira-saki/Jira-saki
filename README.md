@@ -18,14 +18,11 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
   * **Domain:** Cloud & Container Hardening
   * **Highlights:** Immutable Amazon EKS deployment using Bottlerocket OS and Terraform. Features 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and Shift-Left IaC security scanning (Checkov & Trivy).
 
-* **[EP3: aws-dataops-platform](https://github.com/Jira-saki/aws-dataops-platform)**
+* **[EP3: Unified Batch & Streaming DataSecOps Lakehouse ( Serverless & FinOps)](https://github.com/Jira-saki/aws-dataops-platform)** `🚧 In Progress`
   * **Domain:** DataSecOps & Serverless Lakehouse
   * **Highlights:** Local-first DataOps pipeline (`dlt` + DuckDB) to AWS S3 Serverless Lakehouse via Terraform. Features Salted SHA-256 PII masking, Glue Partition Projection (zero-crawler), sub-kilobyte Athena scans, and GitHub Actions CI.
 
-* **[EP4: aws-realtime-cdc-pipeline](https://github.com/Jira-saki/aws-realtime-CDC-pipeline)** `🚧 In Progress`
-  * **Domain:** Real-Time Data Platform & Managed CDC Streaming
-  * **Highlights:** Production-grade Change Data Capture (CDC) pipeline ingesting multi-domain data streams (Security Audit Logs & Credit Card Fraud) using AWS RDS MySQL (`binlog_format = ROW`) and AWS DMS to S3 Data Lake (Parquet format). Provisioned 100% via Terraform with automated PII/IP masking, Glue Catalog partition sync, sub-second Athena queries, and CloudWatch CDC latency observability.
-* **[EP5: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
+* **[EP4: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** `🚧 In Progress`
   * **Domain:** Cloud-Native MLOps & High-Concurrency Inference
   * **Highlights:** Declarative AI/ML serving platform on EKS with KServe, Knative (Scale-to-Zero), Istio Service Mesh, and ArgoCD GitOps. Features Karpenter dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
 
