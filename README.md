@@ -22,9 +22,6 @@ I specialize in designing and implementing **Hardened & Scalable Infrastructure*
   *Domain:* DataSecOps & Serverless Lakehouse  
   *Highlights:* Dual-engine ingestion pipeline (Batch via `dlt` + Streaming via **Amazon Data Firehose**) to an S3 Parquet Lakehouse via Terraform. Features Salted SHA-256 PII masking, **AWS Glue Partition Projection** (zero-crawler design), sub-kilobyte Athena query scans, and GitHub Actions CI.
 
-* 🧠 **[EP4: aws-mlops-eks-platform](https://github.com/Jira-saki/aws-mlops-eks-platform)** 🚧 *In Progress*  
-  *Domain:* Cloud-Native MLOps & High-Concurrency Inference  
-  *Highlights:* Declarative AI/ML serving platform on EKS with **KServe**, **Knative** (Scale-to-Zero), **Istio Service Mesh**, and **ArgoCD GitOps**. Features **Karpenter** dynamic node autoscaling, Prometheus/Grafana observability, and 10k+ concurrent stress testing.
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
