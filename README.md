@@ -1,56 +1,50 @@
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jira-saki/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jirasak-pakdeeto-900665214/) [![CKA](https://img.shields.io/badge/CKA-Certified-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto) [![AWS SAA](https://img.shields.io/badge/AWS-SAA%20Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto)
 
-### Hi there 👋 I'm Jirasak (Jira)
-**Cloud & Data Infrastructure Engineer**
+# Hi there 👋 I'm Jirasak (Jira)
 
-Currently based in Osaka 🇯🇵 (Relocating to Tokyo/Chiba area).  
-I specialize in designing and implementing **Hardened & Scalable Infrastructure** using **AWS, Kubernetes (CKA), and Infrastructure as Code (Terraform)**. Driven by DevSecOps, GitOps, and Data Platform Engineering principles.
+**Cloud & Data Infrastructure Engineer**  
+Currently based in Osaka 🇯🇵 *(Relocating to Tokyo / Chiba area)*  
+Specializing in **Hardened & Scalable Infrastructure**, **Kubernetes (CKA)**, and **Infrastructure as Code (Terraform)**. Driven by DevSecOps, GitOps, and Data Platform Engineering principles.
 
 ---
 
 ### 🚀 Featured Engineering Projects (Platform Series)
 
-* 🔍 **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**  
-  *Domain:* Linux OS Internals & Production Troubleshooting  
-  *Highlights:* Deep-dive investigation and automated remediation of parent-child process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`).
+* **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki)**  
+  * **Domain:** Linux OS Internals & Production Troubleshooting  
+  * **Highlights:** Deep-dive investigation and automated remediation of process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) in POSIX environments.
 
-* 🛡️ **[EP2: AWS-EKS-Hardened-Infrastructure](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)** `v1.0.0`  
-  *Domain:* Cloud & Container Hardening  
-  *Highlights:* Immutable Amazon EKS deployment using **Bottlerocket OS** and Terraform. Features 3-tier VPC network isolation, IAM Roles for Service Accounts (IRSA), and Shift-Left IaC security scanning (`Checkov` & `Trivy`).
+* **[EP2: AWS-EKS-Hardened-Infrastructure (v1.1.0)](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)**  
+  * **Domain:** Cloud, Container Hardening & Dynamic Autoscaling  
+  * **Highlights:** Immutable Amazon EKS on **Bottlerocket OS** with 3-tier VPC isolation, IRSA, and Shift-Left scanning (Checkov/Trivy). Features **Two-Tier Autoscaling (HPA + Karpenter EC2 Spot)** and a full observability stack (**Prometheus/Grafana**) validated under **k6 spike stress testing (0% error rate)**.
 
-* 📊 **[EP3: Unified Batch & Streaming DataSecOps Lakehouse (Serverless & FinOps)](https://github.com/Jira-saki/aws-dataops-platform)** 🚧 *In Progress*  
-  *Domain:* DataSecOps & Serverless Lakehouse  
-  *Highlights:* Dual-engine ingestion pipeline (Batch via `dlt` + Streaming via **Amazon Data Firehose**) to an S3 Parquet Lakehouse via Terraform. Features Salted SHA-256 PII masking, **AWS Glue Partition Projection** (zero-crawler design), sub-kilobyte Athena query scans, and GitHub Actions CI.
+* **[EP3: Unified Batch & Streaming DataSecOps Lakehouse](https://github.com/Jira-saki)** *(In Progress)*  
+  * **Domain:** DataSecOps, FinOps & Serverless Lakehouse  
+  * **Highlights:** Dual-engine ingestion pipeline (Batch via `dlt` + Streaming via Amazon Data Firehose) into S3 Parquet Lakehouse. Implements Salted SHA-256 PII masking, AWS Glue Partition Projection (zero-crawler design), and sub-kilobyte Athena query scans.
 
 ---
 
 ### 🛠️ Tech Stack & Ecosystem
 
-* ☁️ **Cloud Platform:** AWS (Solutions Architect Associate, Data Engineer Track), GCP
-* 🏗️ **Infrastructure as Code (IaC) & GitOps:** Terraform (Modules, State), ArgoCD (GitOps)
-* 🐳 **Container & Orchestration:** Kubernetes (CKA Certified, EKS), Bottlerocket, Docker, Helm, Karpenter, Istio, Knative, KServe
-* 🐧 **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, Shell Scripting, POSIX Internals
-* 📊 **Data, MLOps & DataSecOps:** AWS Glue, Athena, S3 Lakehouse, Apache Parquet, DuckDB, dlt, Data Masking/Hashing, Model Serving
-* 📈 **Observability & Security:** Prometheus, Grafana, OpenSearch, Datadog, Checkov, Trivy, IAM IRSA
-* 🚀 **CI/CD & Automation:** GitHub Actions, Bash, Python (pytest, Data Pipelines)
+* **Cloud & Edge:** AWS (EKS, VPC, IAM/IRSA, KMS, OpenSearch, Firehose, Glue, Athena, S3)
+* **IaC & GitOps:** Terraform (Modular Architecture, State Isolation), ArgoCD
+* **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm
+* **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Bash Scripting
+* **Data Platform & FinOps:** AWS Glue Data Catalog, Athena, Apache Parquet, DuckDB, `dlt`, PII Hashing
+* **Observability & DevSecOps:** Prometheus, Grafana, AWS Systems Manager (SSM), Checkov, Trivy, Cosign
+* **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Data Pipelines)
 
 ---
 
-### 🎯 Certifications & Active Roadmap
+### 🎯 Certifications & Roadmap
 
-#### ☸️ Cloud Infrastructure & Container Orchestration
-* ☸️ **Certified Kubernetes Administrator (CKA)** ✅ *(Score: 84% · Issued: Aug 2026)*
-* 🥇 **AWS Certified Solutions Architect – Associate (SAA)** ✅ *(Issued: Jan 2026 · Expires: Jan 2029)*
+**Active Credentials**
+* ☸️ **Certified Kubernetes Administrator (CKA)** — *Linux Foundation* (Score: 84% · Aug 2026)
+* ☁️ **AWS Certified Solutions Architect – Associate (SAA-C03)** — *Amazon Web Services* (Jan 2026 – Jan 2029)
+* 🛡️ **Google Cybersecurity Specialization** (Issued: Oct 2024)
 
-#### 🛡️ Security Hardening
-* 🛡️ **Google Cybersecurity Specialization** ✅ *(Issued: Oct 2024)*
-
-#### 📊 Data & Platform Engineering Foundations
-* 📊 **AWS Certified Data Analytics – Specialty (DAS)** 📜 *(Expired / Retired · Credly Verified)*
-* ⚙️ **IBM Data Engineering Foundations Specialization** ✅ *(Issued: Aug 2021)*
-* 📈 **Google Data Analytics Specialization** ✅ *(Issued: Jul 2021)*
-
-#### ⏳ Active Milestones & Upcoming Targets (2026–2027)
-* 🧠 **AWS Certified Data Engineer – Associate (DEA)** ⏳ *(Scheduled: Sep 2026)*
+**Target Roadmap (2026)**
+* 🧠 **AWS Certified Data Engineer – Associate (DEA-C01)** ⏳ *(Exam: Sep 2026)*
 * ☸️ **Certified Kubernetes Security Specialist (CKS)** ⏳ *(Targeting: Q4 2026)*
 
+*(Foundational Background: AWS Data Analytics DAS [Retired], Google/IBM Data Engineering Professional Certifications)*
