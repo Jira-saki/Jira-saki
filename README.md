@@ -18,7 +18,7 @@ Specializing in **Hardened & Scalable Infrastructure**, **Kubernetes (CKA)**, an
   * **Domain:** Cloud, Container Hardening & Dynamic Autoscaling  
   * **Highlights:** Immutable Amazon EKS on **Bottlerocket OS** with 3-tier VPC isolation, IRSA, and Shift-Left scanning (Checkov/Trivy). Features **Two-Tier Autoscaling (HPA + Karpenter EC2 Spot)** and a full observability stack (**Prometheus/Grafana**) validated under **k6 spike stress testing (0% error rate)**.
 
-* **[EP3: Unified Batch & Streaming DataSecOps Lakehouse](https://github.com/Jira-saki)** *(In Progress)*  
+* **[EP3: Unified Batch & Streaming DataSecOps Lakehouse](https://github.com/Jira-saki/aws-dataops-platform)** *(In Progress)*  
   * **Domain:** DataSecOps, FinOps & Serverless Lakehouse  
   * **Highlights:** Dual-engine ingestion pipeline (Batch via `dlt` + Streaming via Amazon Data Firehose) into S3 Parquet Lakehouse. Implements Salted SHA-256 PII masking, AWS Glue Partition Projection (zero-crawler design), and sub-kilobyte Athena query scans.
 
