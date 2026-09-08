@@ -2,9 +2,9 @@
 
 # Hi there 👋 I'm Jirasak (Jira)
 
-**Cloud & Data Infrastructure Engineer**  
-Currently based in Osaka 🇯🇵 *(Relocating to Tokyo / Chiba area)*  
-Specializing in **Hardened & Scalable Infrastructure**, **Kubernetes (CKA)**, and **Infrastructure as Code (Terraform)**. Driven by DevSecOps, GitOps, and Data Platform Engineering principles.
+Cloud Platform & Site Reliability Engineer (SRE)
+Currently based in Osaka 🇯🇵 (Relocating to Tokyo / Chiba area)
+Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infrastructure as Code (Terraform). Driven by SRE, Observability, DevSecOps, and GitOps principles.
 
 ---
 
@@ -31,7 +31,7 @@ Specializing in **Hardened & Scalable Infrastructure**, **Kubernetes (CKA)**, an
 * **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm
 * **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Bash Scripting
 * **Data Platform & FinOps:** AWS Glue Data Catalog, Athena, Apache Parquet, DuckDB, `dlt`, PII Hashing
-* **Observability & DevSecOps:** Prometheus, Grafana, AWS Systems Manager (SSM), Checkov, Trivy, Cosign
+* **Observability & DevSecOps:** Prometheus, PromQL, Alertmanager, Grafana, AWS Systems Manager (SSM), Checkov, Trivy, Cosign
 * **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Data Pipelines)
 
 ---
@@ -44,7 +44,7 @@ Specializing in **Hardened & Scalable Infrastructure**, **Kubernetes (CKA)**, an
 * 🛡️ **Google Cybersecurity Specialization** (Issued: Oct 2024)
 
 **Target Roadmap (2026)**
-* 🧠 **AWS Certified Data Engineer – Associate (DEA-C01)** ⏳ *(Exam: Sep 2026)*
+* 🧠 **Prometheus Certified Associate (PCA)** ⏳ *(In Progress / Q3 2026)*
 * ☸️ **Certified Kubernetes Security Specialist (CKS)** ⏳ *(Targeting: Q4 2026)*
 
 *(Foundational Background: AWS Data Analytics DAS [Retired], Google/IBM Data Engineering Professional Certifications)*
