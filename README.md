@@ -26,13 +26,13 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ### 🛠️ Tech Stack & Ecosystem
 
-* **Cloud & Edge:** AWS (EKS, VPC, IAM/IRSA, KMS, OpenSearch, Firehose, Glue, Athena, S3)
-* **IaC & GitOps:** Terraform (Modular Architecture, State Isolation), ArgoCD
 * **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm
-* **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Bash Scripting
-* **Data Platform & FinOps:** AWS Glue Data Catalog, Athena, Apache Parquet, DuckDB, `dlt`, PII Hashing
-* **Observability & DevSecOps:** Prometheus, PromQL, Alertmanager, Grafana, AWS Systems Manager (SSM), Checkov, Trivy, Cosign
-* **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Data Pipelines)
+* **Observability & DevSecOps:** Prometheus, PromQL, Alertmanager, Grafana, OpenSearch, Checkov, Trivy, Cosign, AWS SSM
+* **IaC & GitOps:** Terraform (Modular Architecture, State Isolation), ArgoCD
+* **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Kernel Parameters, Bash Scripting
+* **Cloud Infrastructure:** AWS (EKS, VPC Architecture, IAM/IRSA, KMS, S3, CloudWatch)
+* **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Infrastructure Tooling)
+* **Data Infrastructure & Storage:** AWS Glue, Athena, Apache Parquet, Amazon Data Firehose, S3 Storage Tiers, DuckDB
 
 ---
 
