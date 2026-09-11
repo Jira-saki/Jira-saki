@@ -10,7 +10,7 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ### 🚀 Featured Engineering Projects (Platform Series)
 
-* **[The-Walking_Dead-22-Domains](https://github.com/Jira-saki)**  
+* **[The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**  
   * **Domain:** Linux OS Internals & Production Troubleshooting  
   * **Highlights:** Deep-dive investigation and automated remediation of process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) in POSIX environments.
 
