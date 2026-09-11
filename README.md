@@ -10,17 +10,19 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ### 🚀 Featured Engineering Projects (Platform Series)
 
-* **[EP1: The-Walking_Dead-22-Domains](https://github.com/Jira-saki)**  
+* **[The-Walking_Dead-22-Domains](https://github.com/Jira-saki)**  
   * **Domain:** Linux OS Internals & Production Troubleshooting  
   * **Highlights:** Deep-dive investigation and automated remediation of process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) in POSIX environments.
 
-* **[EP2: AWS-EKS-Hardened-Infrastructure (v1.1.0)](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)**  
+* **[AWS-EKS-Hardened-Infrastructure (v1.1.0)](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)**  
   * **Domain:** Cloud, Container Hardening & Dynamic Autoscaling  
   * **Highlights:** Immutable Amazon EKS on **Bottlerocket OS** with 3-tier VPC isolation, IRSA, and Shift-Left scanning (Checkov/Trivy). Features **Two-Tier Autoscaling (HPA + Karpenter EC2 Spot)** and a full observability stack (**Prometheus/Grafana**) validated under **k6 spike stress testing (0% error rate)**.
 
-* **[EP3: Unified Batch & Streaming DataSecOps Lakehouse](https://github.com/Jira-saki/datasecops-lakehouse)** *(In Progress)*  
-  * **Domain:** DataSecOps, FinOps & Serverless Lakehouse  
-  * **Highlights:** Dual-engine ingestion pipeline (Batch via `dlt` + Streaming via Amazon Data Firehose) into S3 Parquet Lakehouse. Implements Salted SHA-256 PII masking, AWS Glue Partition Projection (zero-crawler design), and sub-kilobyte Athena query scans.
+* **[Linux-namespace-networking-lab](https://github.com/Jira-saki/Linux-namespace-networking-lab)**
+  * **Domain:** Deep Systems & Container Network Interface (CNI) Internals  
+  * **Highlights:** Hands-on architectural lab exploring Linux network namespaces, veth pair bridging, packet routing, and iptables NAT masquerading—uncovering the underlying primitives of Docker and Kubernetes CNI plugins without third-party abstractions.
+
+
 
 ---
 
@@ -32,7 +34,6 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 * **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Kernel Parameters, Bash Scripting
 * **Cloud Infrastructure:** AWS (EKS, VPC Architecture, IAM/IRSA, KMS, S3, CloudWatch)
 * **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Infrastructure Tooling)
-* **Data Infrastructure & Storage:** AWS Glue, Athena, Apache Parquet, Amazon Data Firehose, S3 Storage Tiers, DuckDB
 
 ---
 
