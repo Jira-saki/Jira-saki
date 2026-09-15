@@ -10,13 +10,17 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ### 🚀 Featured Engineering Projects (Platform Series)
 
+
+* **[AWS-EKS-Hardened-Infrastructure (v1.2.0 - Multi-Cloud Parity)](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)**  
+  * **Domain:** Multi-Cloud Platform Engineering, Container Hardening & Advanced Observability  
+  * **Highlights:** 
+    * **1:1 Architectural Parity:** Immutable **AWS EKS (Bottlerocket OS, IRSA, KMS)** paired with a mirrored **GCP GKE (Container-Optimized OS, Workload Identity, Cloud KMS CMEK)** environment provisioned via modular Terraform.
+    * **Modern Traffic Routing:** AWS ALB Ingress Controller vs. **GKE Gateway API** using container-native Network Endpoint Groups (NEGs).
+    * **Hardened Observability:** Prometheus Operator with **AlertmanagerConfig CRD** featuring multi-tier routing (Critical Paging vs. ChatOps) and **Inhibition Rules** for alert fatigue elimination. Validated under **k6 spike stress testing (0% error rate)** with automated HPA scaling.
+
 * **[The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**  
   * **Domain:** Linux OS Internals & Production Troubleshooting  
   * **Highlights:** Deep-dive investigation and automated remediation of process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) in POSIX environments.
-
-* **[AWS-EKS-Hardened-Infrastructure (v1.1.0)](https://github.com/Jira-saki/AWS-EKS-Hardened-Infrastructure)**  
-  * **Domain:** Cloud, Container Hardening & Dynamic Autoscaling  
-  * **Highlights:** Immutable Amazon EKS on **Bottlerocket OS** with 3-tier VPC isolation, IRSA, and Shift-Left scanning (Checkov/Trivy). Features **Two-Tier Autoscaling (HPA + Karpenter EC2 Spot)** and a full observability stack (**Prometheus/Grafana**) validated under **k6 spike stress testing (0% error rate)**.
 
 * **[Linux-namespace-networking-lab](https://github.com/Jira-saki/Linux-namespace-networking-lab)**
   * **Domain:** Deep Systems & Container Network Interface (CNI) Internals  
