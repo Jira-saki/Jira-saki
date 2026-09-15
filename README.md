@@ -11,7 +11,7 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 ### 🚀 Featured Engineering Projects (Platform Series)
 
 
-* **[AWS-EKS-Hardened-Infrastructure (v1.2.0 - Multi-Cloud Parity)](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)**  
+* **[Cloud-Native-Hardened-Infrastructure (v1.2.0 - Multi-Cloud Parity)](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)**  
   * **Domain:** Multi-Cloud Platform Engineering, Container Hardening & Advanced Observability  
   * **Highlights:** 
     * **1:1 Architectural Parity:** Immutable **AWS EKS (Bottlerocket OS, IRSA, KMS)** paired with a mirrored **GCP GKE (Container-Optimized OS, Workload Identity, Cloud KMS CMEK)** environment provisioned via modular Terraform.
