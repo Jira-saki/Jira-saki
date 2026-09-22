@@ -8,7 +8,15 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ---
 
-### 🚀 Featured Engineering Projects (Platform Series)
+### 🚀 Featured Engineering Projects (Platform & Security Series)
+
+* **[k8s-incident-containment-remediation](https://github.com/Jira-saki/k8s-incident-containment-remediation)**  
+  * **Domain:** Cloud-Native Runtime Security, eBPF & Automated Incident Response  
+  * **Highlights:** 
+    * **Automated Closed-Loop Remediation:** Sub-second MTTR (< 1s) from shell execution detection to full network isolation without human intervention.
+    * **Kernel-Level Runtime Detection:** Falco deployed via `modern_ebpf` driver to intercept unauthorized container syscalls across a 3-node cluster.
+    * **Dynamic Zero-Trust Containment:** Lightweight Python remediation webhook consuming Falcosidekick alerts to patch compromised workloads with `quarantine=true`, dynamically triggering Calico `NetworkPolicy` ingress/egress drops.
+    * **Self-Healing Resilience:** Controller self-healing verified; post-incident pod deletion automatically triggers clean ReplicaSet pod recreation without quarantine labels.
 
 * **[Cloud-Native-Hardened-Infrastructure (v1.2.0 - Multi-Cloud Parity)](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)**  
   * **Domain:** Multi-Cloud Platform Engineering, Container Hardening & Advanced Observability  
@@ -30,11 +38,12 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 ### 🛠️ Tech Stack & Ecosystem
 
 * **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm
-* **Observability & DevSecOps:** Prometheus, PromQL, Alertmanager, Grafana, OpenSearch, Checkov, Trivy, Cosign, AWS SSM
+* **Runtime Security & Networking:** Falco (`modern_ebpf`), Calico CNI (`NetworkPolicy`), Linux Namespaces/cgroups
+* **Observability & DevSecOps:** Prometheus Operator, PromQL, Alertmanager, Grafana, OpenSearch, Trivy, Checkov, Cosign, AWS SSM
 * **IaC & GitOps:** Terraform (Modular Architecture, State Isolation), ArgoCD
-* **Core OS & Networking:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Kernel Parameters, Bash Scripting
-* **Cloud Infrastructure:** AWS (EKS, VPC Architecture, IAM/IRSA, KMS, S3, CloudWatch)
-* **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Infrastructure Tooling)
+* **Core OS & Scripting:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Kernel Parameters, Bash Scripting, Python, Go
+* **Cloud Infrastructure:** AWS (EKS, VPC Architecture, IAM/IRSA, KMS, S3, CloudWatch), GCP (GKE, VPC, Workload Identity)
+* **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Kubernetes API Client)
 
 ---
 
