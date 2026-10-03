@@ -10,6 +10,16 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ### 🚀 Featured Engineering Projects (Platform & Security Series)
 
+* **[ai-infra-poc](https://github.com/Jira-saki/ai-infra-poc)**  
+  * **Domain:** Ephemeral AI Infrastructure, Shift-Left DevSecOps & Hardened EKS  
+  * **Highlights:** 
+    * **Shift-Left Security Gates:** Pre-deployment CI enforcement with Checkov IaC SAST (36/36 checks passed) and Trivy container gate blocking 16 baseline CVEs (2 Critical, 14 High), triaged down to **0 actionable CVEs** in v1.0.1.
+    * **Hardened Node Baseline:** Ephemeral AWS EKS cluster running on **Bottlerocket OS 1.63.0** (`containerd://1.7.33+bottlerocket`), IMDSv2 enforcement (`http_tokens=required`, hop limit 2), and KMS CMK envelope encryption for Kubernetes secrets.
+    * **Strict FinOps Guardrails:** Single NAT Gateway topology and Spot instance lifecycle engineered to cap total test run costs at **< ¥1,000** (67 resources planned, verified, and cleanly destroyed).
+    * **Secure AI Workload:** Non-root (UID 10001) Sentence-Transformers FastAPI microservice returning 384-dimensional vector embeddings with restricted `securityContext`.
+
+
+
 * **[k8s-incident-containment-remediation](https://github.com/Jira-saki/k8s-incident-containment-remediation)**  
   * **Domain:** Cloud-Native Runtime Security, eBPF & Automated Incident Response  
   * **Highlights:** 
@@ -37,12 +47,12 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ### 🛠️ Tech Stack & Ecosystem
 
-* **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm
+* **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm, FastAPI/PyTorch Workloads
 * **Runtime Security & Networking:** Falco (`modern_ebpf`), Calico CNI (`NetworkPolicy`), Linux Namespaces/cgroups
-* **Observability & DevSecOps:** Prometheus Operator, PromQL, Alertmanager, Grafana, OpenSearch, Trivy, Checkov, Cosign, AWS SSM
-* **IaC & GitOps:** Terraform (Modular Architecture, State Isolation), ArgoCD
+* **Observability & DevSecOps:** Prometheus Operator, PromQL, Alertmanager, Grafana, OpenSearch, Trivy (CVE Triage), Checkov, Cosign, AWS SSM
+* **IaC & GitOps:** Terraform (Modular Architecture, State Isolation), ArgoCD, FinOps / Cost Guardrails
 * **Core OS & Scripting:** Linux (Ubuntu/Debian) Administration, POSIX Internals, Kernel Parameters, Bash Scripting, Python, Go
-* **Cloud Infrastructure:** AWS (EKS, VPC Architecture, IAM/IRSA, KMS, S3, CloudWatch), GCP (GKE, VPC, Workload Identity)
+* **Cloud Infrastructure:** AWS (EKS, VPC Architecture, IAM/IRSA, KMS CMK, ECR, S3, CloudWatch), GCP (GKE, VPC, Workload Identity)
 * **CI/CD & Automation:** GitHub Actions, Python (`pytest`, Kubernetes API Client)
 
 ---
