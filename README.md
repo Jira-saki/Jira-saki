@@ -2,7 +2,7 @@
 
 # Hi there 👋 I'm Jirasak (Jira)
 
-Cloud Platform & Site Reliability Engineer (SRE)  
+Cloud Platform & DevSecOps Engineer | SRE  
 Currently based in Osaka 🇯🇵 (Relocating to Tokyo / Chiba area)  
 Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infrastructure as Code (Terraform). Driven by SRE, Observability, DevSecOps, and GitOps principles.
 
