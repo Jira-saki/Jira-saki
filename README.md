@@ -1,4 +1,4 @@
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jira-saki/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jirasak-pakdeeto-900665214/) [![CKA](https://img.shields.io/badge/CKA-Certified-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto) [![AWS SAA](https://img.shields.io/badge/AWS-SAA%20Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jira-saki/) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jirasak-pakdeeto-900665214/) [![Findy](https://img.shields.io/badge/Findy-Score%2062.0-007ACC?style=for-the-badge&logo=googlecloud&logoColor=white)](<วาง_URL_Findy_Portfolio_ที่นี่>) [![CKA](https://img.shields.io/badge/CKA-Certified-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto) [![AWS SAA](https://img.shields.io/badge/AWS-SAA%20Certified-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/users/jirasak-pakdeeto)
 
 # Hi there 👋 I'm Jirasak (Jira)
 
@@ -6,11 +6,16 @@ Cloud Platform & DevSecOps Engineer | SRE
 Currently based in Osaka 🇯🇵 (Relocating to Tokyo / Chiba area)  
 Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infrastructure as Code (Terraform). Driven by SRE, Observability, DevSecOps, and GitOps principles.
 
-#### ファインディ　ポートフォリオ
-[![Findy Skill Score](https://img.shields.io/badge/Findy-Skill%20Score%2062.0-007acc?style=flat-square&logo=github)](<วาง_URL_Findy_Portfolio_ของคุณที่นี่>)
 ---
 
 ### 🚀 Featured Engineering Projects (Platform & Security Series)
+
+* **[Ephemeral-Observability-Runtime-Security-Platform](https://github.com/Jira-saki/Ephemeral-Observability-Runtime-Security-Platform)**  
+  * **Domain:** Cloud-Native Observability, Go Microservices & Runtime Threat Detection  
+  * **Highlights:** 
+    * **Full-Stack Platform Integration:** Hardened Go API compiled into a scratch/distroless image exposing `/healthz`, `/readyz`, and native Prometheus metrics (`/metrics`).
+    * **End-to-End Cluster Hardening:** Provisioned on bare-metal/VM via `kubeadm` (Calico CNI), enforcing Pod Security Standards (PSS restricted), default-deny `NetworkPolicy`, and Kubelet serving certs with IP SANs.
+    * **Telemetry & Runtime Defense:** Full metrics observability via `kube-prometheus-stack` (ServiceMonitor & Grafana dashboards) alongside kernel-level runtime threat detection with Falco rules.
 
 * **[ai-infra-poc](https://github.com/Jira-saki/ai-infra-poc)**  
   * **Domain:** Ephemeral AI Infrastructure, Shift-Left DevSecOps & Hardened EKS  
@@ -19,8 +24,6 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
     * **Hardened Node Baseline:** Ephemeral AWS EKS cluster running on **Bottlerocket OS 1.63.0** (`containerd://1.7.33+bottlerocket`), IMDSv2 enforcement (`http_tokens=required`, hop limit 2), and KMS CMK envelope encryption for Kubernetes secrets.
     * **Strict FinOps Guardrails:** Single NAT Gateway topology and Spot instance lifecycle engineered to cap total test run costs at **< ¥1,000** (67 resources planned, verified, and cleanly destroyed).
     * **Secure AI Workload:** Non-root (UID 10001) Sentence-Transformers FastAPI microservice returning 384-dimensional vector embeddings with restricted `securityContext`.
-
-
 
 * **[k8s-incident-containment-remediation](https://github.com/Jira-saki/k8s-incident-containment-remediation)**  
   * **Domain:** Cloud-Native Runtime Security, eBPF & Automated Incident Response  
@@ -49,7 +52,7 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 
 ### 🛠️ Tech Stack & Ecosystem
 
-* **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm, FastAPI/PyTorch Workloads
+* **Container & Orchestration:** Kubernetes (CKA Certified), Bottlerocket OS, Karpenter (Spot JIT), Docker, Helm, Distroless
 * **Runtime Security & Networking:** Falco (`modern_ebpf`), Calico CNI (`NetworkPolicy`), Linux Namespaces/cgroups
 * **Observability & DevSecOps:** Prometheus Operator, PromQL, Alertmanager, Grafana, OpenSearch, Trivy (CVE Triage), Checkov, Cosign, AWS SSM
 * **IaC & GitOps:** Terraform (Modular Architecture, State Isolation), ArgoCD, FinOps / Cost Guardrails
@@ -65,9 +68,3 @@ Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infras
 * ☸️ **Certified Kubernetes Administrator (CKA)** — *Linux Foundation* (Score: 84% · Aug 2026)
 * ☁️ **AWS Certified Solutions Architect – Associate (SAA-C03)** — *Amazon Web Services* (Jan 2026 – Jan 2029)
 * 🛡️ **Google Cybersecurity Specialization** (Issued: Oct 2024)
-
-**Target Roadmap**
-* ☸️ **Certified Kubernetes Security Specialist (CKS)** ⏳ *(In Progress: Q4 2026)*
-* 🧠 **AWS Certified Solutions Architect – Professional (SAP-C02)** ⏳ *(Targeting: Q1 2027)*
-
-*(Foundational Background: AWS Data Analytics DAS [Retired], Google/IBM Data Engineering Professional Certifications)*
