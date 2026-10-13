@@ -6,6 +6,8 @@ Cloud Platform & DevSecOps Engineer | SRE
 Currently based in Osaka 🇯🇵 (Relocating to Tokyo / Chiba area)  
 Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infrastructure as Code (Terraform). Driven by SRE, Observability, DevSecOps, and GitOps principles.
 
+#### ファインディ　ポートフォリオ
+[![Findy Skill Score](https://img.shields.io/badge/Findy-Skill%20Score%2062.0-007acc?style=flat-square&logo=github)](<วาง_URL_Findy_Portfolio_ของคุณที่นี่>)
 ---
 
 ### 🚀 Featured Engineering Projects (Platform & Security Series)
