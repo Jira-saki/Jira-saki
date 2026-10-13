@@ -5,6 +5,17 @@
 Cloud Platform & DevSecOps Engineer | SRE  
 Currently based in Osaka 🇯🇵 (Relocating to Tokyo / Chiba area)  
 Specializing in Hardened & Scalable Infrastructure, Kubernetes (CKA), and Infrastructure as Code (Terraform). Driven by SRE, Observability, DevSecOps, and GitOps principles.
+<details>
+<summary>🇯🇵 <b>日本語プロフィール（クリックして展開）</b></summary>
+
+<br>
+
+**Jirasak (SRE / Platform Engineer)**
+- **職務要約(しょくむようやく):** Linux/Webサーバー運用2年以上。AWS環境設計、TerraformによるIaC実装、Kubernetes（CKA 84%合格）の基盤構築、Falco/eBPFを活用したランタイムセキュリティおよびDevSecOps/SREを推進。
+- **ステータス:** 日本永住権（Permanent Resident）保持、就労制限なし。内定後は千葉・東京エリアへ迅速(じんそく)に転居可能です。
+- **ポートフォリオ詳細:** [Findy スキルページ](https://findy-code.io/skills-share/hUpw40lAr31N5) にて詳細な職務経歴およびスキル偏差値を公開しています。
+
+</details>
 
 ---
 
