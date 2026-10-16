@@ -69,9 +69,6 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
   * **Domain:** Linux OS Internals & Production Troubleshooting  
   * **Highlights:** Deep-dive investigation and automated remediation of process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) in POSIX environments.
 
-- **[Linux-namespace-networking-lab](https://github.com/Jira-saki/Linux-namespace-networking-lab)**  
-  * **Domain:** Deep Systems & Container Network Interface (CNI) Internals  
-  * **Highlights:** Hands-on architectural lab exploring Linux network namespaces, `veth` pair bridging, packet routing, and `iptables` NAT masquerading—uncovering the underlying primitives of CNI plugins without third-party abstractions.
 
 ---
 
