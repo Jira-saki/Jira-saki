@@ -19,55 +19,39 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
 
 ---
 
-### 🚀 Featured Engineering Projects (Platform, Security & Data Series)
+### 🚀 Featured Engineering Projects
 
-- **[Cloud-Native-Hardened-Infrastructure (v1.2.0 - Multi-Cloud Parity)](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)**  
-  * **Domain:** Multi-Cloud Platform Engineering, Container Hardening & Advanced Observability  
-  * **Highlights:**  
-    * **1:1 Architectural Parity:** Immutable **AWS EKS** (Bottlerocket OS, IRSA, KMS CMK) paired with a mirrored **GCP GKE** (Container-Optimized OS, Workload Identity, Cloud KMS CMEK) provisioned via modular Terraform.
-    * **Modern Ingress & Routing:** AWS ALB Ingress Controller vs. **GKE Gateway API** utilizing container-native Network Endpoint Groups (NEGs).
-    * **Hardened Observability:** Prometheus Operator with **AlertmanagerConfig CRD** (multi-tier Critical Paging vs. ChatOps) and Inhibition Rules to eliminate alert fatigue. Validated under **k6 spike stress testing (0% error rate)** with automated HPA scaling.
+- **[Cloud-Native-Hardened-Infrastructure](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)** `Multi-Cloud Platform / SRE`
+  * **1:1 Architectural Parity:** Immutable AWS EKS (Bottlerocket, IRSA) & GCP GKE (COS, Workload Identity) via Terraform.
+  * **Ingress & Observability:** AWS ALB vs. GKE Gateway API; Prometheus Operator with Alertmanager inhibition rules (k6 stress tested: 0% error rate).
 
-- **[datasecops-lakehouse](https://github.com/Jira-saki/datasecops-lakehouse)**  
-  * **Domain:** Production DataSecOps, Privacy Engineering & Zero-Idle-Cost FinOps  
-  * **Highlights:**  
-    * **Serverless Lakehouse Architecture:** 100% serverless data pipeline leveraging modular Terraform, S3 (SSE-AES256), AWS Glue Data Catalog, and AWS Athena without operational cluster overhead.
-    * **Glue Partition Projection (Zero-Crawler):** Completely eliminated periodic Glue Crawler execution costs and latency by configuring deterministic date-based partition projection, enabling instant queries with sub-kilobyte scan footprints (0.50 KB).
-    * **Deterministic PII Masking (APPI/GDPR):** Ingestion-time pseudonymization of network telemetry using a salted SHA-256 cryptographic hasher (`src/utils/hasher.py`) preserving correlation capabilities while isolating corrupt payloads via non-blocking DLQ Parquet routing.
-    * **Local-First Verification:** Local DuckDB OLAP zero-copy SQL analytics paired with Floci S3 emulation before AWS deployment.
+- **[k8s-incident-containment-remediation](https://github.com/Jira-saki/k8s-incident-containment-remediation)** `Runtime Security / eBPF`
+  * **Kernel Detection:** Falco with `modern_ebpf` driver intercepting unauthorized container syscalls.
+  * **Sub-Second MTTR (<1s):** Automated webhook isolating compromised workloads via Calico quarantine NetworkPolicies.
 
-- **[aws-vpc-flowlog-sanitizer](https://github.com/Jira-saki/aws-vpc-flowlog-sanitizer)**  
-  * **Domain:** AI Telemetry Security, Zero-PII Ingestion Gateway & Network SecOps  
-  * **Highlights:**  
-    * **Enrich-Before-Mask Pattern:** Solved the LLM privacy dilemma by enriching network telemetry (GeoIP, ASN, Tor Exit Node detection, VPC subnet tiers) while raw IPs reside in volatile memory, prior to deterministic pseudonymization.
-    * **Salted HMAC-SHA256 Tokenization:** One-way, deterministic token generation (`pub-ip:843d16e8`) enabling external LLMs (Claude, Gemini, Amazon Bedrock) to conduct security incident root-cause analysis without internal IP or AWS Account ID leakage.
-    * **Stream & Batch Processing:** Zero-dependency Python architecture compatible with AWS Lambda S3 triggers, Kinesis Data Firehose, or sidecar log shippers.
+- **[datasecops-lakehouse](https://github.com/Jira-saki/datasecops-lakehouse)** `Privacy Engineering / FinOps`
+  * **Zero-Idle-Cost Lakehouse:** Serverless S3/Glue/Athena pipeline with zero crawler runtime via Partition Projection (0.50 KB scan queries).
+  * **APPI/GDPR Compliance:** Ingestion-time salted SHA-256 PII pseudonymization with non-blocking DLQ Parquet routing.
 
-- **[k8s-incident-containment-remediation](https://github.com/Jira-saki/k8s-incident-containment-remediation)**  
-  * **Domain:** Cloud-Native Runtime Security, eBPF & Automated Incident Response  
-  * **Highlights:**  
-    * **Automated Closed-Loop Remediation:** Sub-second MTTR (< 1s) from unauthorized shell execution detection to full network isolation without human intervention.
-    * **Kernel-Level Runtime Detection:** Falco deployed via `modern_ebpf` driver to intercept unauthorized container syscalls across a 3-node cluster.
-    * **Dynamic Zero-Trust Containment:** Lightweight Python remediation webhook consuming Falcosidekick alerts to patch compromised workloads with `quarantine=true`, dynamically triggering Calico `NetworkPolicy` ingress/egress drops.
+- **[ai-infra-poc](https://github.com/Jira-saki/ai-infra-poc)** `AI Platform / DevSecOps`
+  * **Shift-Left Security:** Automated Checkov (36/36 passed) and Trivy gates triaging baseline CVEs to 0.
+  * **Hardened Node Baseline:** Ephemeral Bottlerocket EKS with IMDSv2 and KMS CMK; capped at < ¥1,000 per test run via Spot lifecycle.
 
-- **[ai-infra-poc](https://github.com/Jira-saki/ai-infra-poc)**  
-  * **Domain:** Ephemeral AI Infrastructure, Shift-Left DevSecOps & Hardened EKS  
-  * **Highlights:**  
-    * **Shift-Left Security Gates:** Pre-deployment CI enforcement with Checkov IaC SAST (36/36 checks passed) and Trivy container gate blocking 16 baseline CVEs, triaged down to **0 actionable CVEs** in v1.0.1.
-    * **Hardened Node Baseline:** Ephemeral AWS EKS cluster running on **Bottlerocket OS 1.63.0**, IMDSv2 enforcement (`http_tokens=required`, hop limit 2), and KMS CMK envelope encryption for Kubernetes secrets.
-    * **FinOps Guardrails:** Single NAT Gateway topology and Spot instance lifecycle engineered to cap total test run costs at **< ¥1,000**.
+<details>
+<summary><b>🔍 View More Engineering Projects (Observability, Linux Internals, AI Telemetry)</b></summary>
 
-- **[Ephemeral-Observability-Runtime-Security-Platform](https://github.com/Jira-saki/Ephemeral-Observability-Runtime-Security-Platform)**  
-  * **Domain:** Cloud-Native Observability, Go Microservices & Runtime Threat Detection  
-  * **Highlights:**  
-    * **Full-Stack Platform Integration:** Hardened Go API compiled into a scratch/distroless image exposing `/healthz`, `/readyz`, and native Prometheus metrics (`/metrics`).
-    * **End-to-End Cluster Hardening:** Provisioned via `kubeadm` (Calico CNI), enforcing Pod Security Standards (PSS restricted), default-deny `NetworkPolicy`, and Kubelet serving certs with IP SANs.
-    * **Full Observability:** End-to-end metrics telemetry via `kube-prometheus-stack` (ServiceMonitor & Grafana dashboards) alongside kernel-level runtime threat detection with Falco.
+<br>
 
-- **[The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)**  
-  * **Domain:** Linux OS Internals & Production Troubleshooting  
-  * **Highlights:** Deep-dive investigation and automated remediation of process lifecycle failures, zombie process leakage, and signal handling (`SIGCHLD`) in POSIX environments.
+- **[aws-vpc-flowlog-sanitizer](https://github.com/Jira-saki/aws-vpc-flowlog-sanitizer)** `AI Telemetry / SecOps`
+  * **Enrich-Before-Mask:** In-memory enrichment (GeoIP, ASN, Tor) followed by salted HMAC-SHA256 masking for privacy-safe LLM incident analysis.
 
+- **[Ephemeral-Observability-Runtime-Security-Platform](https://github.com/Jira-saki/Ephemeral-Observability-Runtime-Security-Platform)** `Go / Observability`
+  * **Hardened Go Service:** Scratch/distroless Go API on kubeadm (PSS restricted, Calico default-deny) with Prometheus ServiceMonitor & Falco.
+
+- **[The-Walking_Dead-22-Domains](https://github.com/Jira-saki/The-Walking_Dead-22-Domains)** `Linux OS Internals`
+  * **Production Troubleshooting:** Deep-dive investigation and automated remediation of zombie process leakage and SIGCHLD handling in POSIX environments.
+
+</details>
 
 ---
 
