@@ -20,6 +20,10 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
 ---
 
 ### 🚀 Featured Engineering Projects
+- **[[cloud-workload-modernization-platform](https://github.com/Jira-saki/cloud-workload-modernization-platform)]** `Enterprise Platform / Zero-Trust GKE`
+  * **Architecture:** Enterprise reference blueprint migrating legacy multi-tenant workloads to immutable GKE (Container-Optimized OS, Workload Identity).
+  * **Automated Remediation (240ms MTTR):** modern_ebpf Falco driver paired with Falco Talon and Calico quarantine policies to isolate compromised pods in < 1s.
+  * **GitOps & Security:** Full-stack delivery via ArgoCD (App-of-Apps) validated by Checkov and Trivy pre-merge CI gates.
 
 - **[Cloud-Native-Hardened-Infrastructure](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)** `Multi-Cloud Platform / SRE`
   * **1:1 Architectural Parity:** Immutable AWS EKS (Bottlerocket, IRSA) & GCP GKE (COS, Workload Identity) via Terraform.
