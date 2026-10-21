@@ -6,16 +6,15 @@
 Currently based in Osaka 🇯🇵 *(Relocating to Tokyo / Chiba area)*  
 Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 84%), Infrastructure as Code (Terraform), and Privacy-Preserving DataSecOps. Driven by SRE, Runtime Defense, FinOps, and GitOps principles.
 
+
+> 🇯🇵 **永住権（えいじゅうけん）保持・就労制限（しゅうろうせいげん）なし** | 大阪在住（内定（ないてい）後、東京・千葉へ転居（てんきょ）可能）  
+> Linux/インフラ運用・AWS/GCP・Kubernetes (CKA 84%)・Terraform IaC・ランタイムセキュリティ
+
 <details>
-<summary>🇯🇵 <b>日本語プロフィール（クリックして展開）</b></summary>
+<summary><b>職務要約・詳細プロフィールを表示</b></summary>
 
-<br>
-
-**Jirasak（SRE / Platform & DataSecOps Engineer）**
 - **職務要約:** Linux/インフラ運用経験。AWS/GCPマルチクラウド設計、Terraform IaCモジュール開発、Kubernetes（CKA 84%合格）運用、Falco/eBPFランタイムセキュリティ、APPI/GDPR準拠のDataSecOpsレイクハウス構築およびFinOpsを推進。
-- **ステータス:** 日本永住権（Permanent Resident）保持、就労制限なし。内定後は千葉・東京エリア（またはフルリモート）へ迅速に対応可能です。
 - **スキル・ポートフォリオ:** [Findy スキルページ](https://findy-code.io/skills-share/hUpw40lAr31N5) にて詳細な職務経歴およびスキル偏差値を公開しています。
-
 </details>
 
 ---
