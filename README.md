@@ -20,14 +20,14 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
 ---
 
 ### 🚀 Featured Engineering Projects
-- **[cloud-workload-modernization-platform](https://github.com/Jira-saki/cloud-workload-modernization-platform)]** `Enterprise Platform / Zero-Trust GKE`
-  * **Architecture:** Enterprise reference blueprint migrating legacy multi-tenant workloads to immutable GKE (Container-Optimized OS, Workload Identity).
-  * **Automated Remediation (240ms MTTR):** modern_ebpf Falco driver paired with Falco Talon and Calico quarantine policies to isolate compromised pods in < 1s.
-  * **GitOps & Security:** Full-stack delivery via ArgoCD (App-of-Apps) validated by Checkov and Trivy pre-merge CI gates.
+- **[Cloud-Native-Hardened-Infrastructure](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)** Enterprise AWS EKS / DevSecOps & SRE
+  - **Hardened EKS & Immutability:** Immutable Bottlerocket OS (Zero-SSH via SSM Session Manager / `sheltie`), AWS KMS envelope encryption, and IRSA least-privilege pod identity.
+  - **Kernel eBPF & Observability:** Ingress microsegmentation enforced natively by AWS VPC CNI eBPF (`default-deny-ingress`) paired with Prometheus/Grafana full-stack observability (4,635 reqs at 0% error rate on k6 spike test).
 
-- **[Cloud-Native-Hardened-Infrastructure](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure) Enterprise AWS EKS / DevSecOps & SRE
-  * **Hardened EKS & Immutability:** Immutable Bottlerocket OS (Zero-SSH via SSM Session Manager / `sheltie`), AWS KMS envelope encryption, and IRSA least-privilege pod identity.
-  * **Kernel eBPF & Observability:** Ingress microsegmentation enforced natively by AWS VPC CNI eBPF (`default-deny-ingress`) paired with Prometheus/Grafana full-stack observability (4,635 reqs at 0% error rate on k6 spike test).
+- **[cloud-workload-modernization-platform](https://github.com/Jira-saki/cloud-workload-modernization-platform)** Enterprise Platform / Zero-Trust GKE
+  - **Architecture:** Enterprise reference blueprint migrating legacy multi-tenant workloads to immutable GKE (Container-Optimized OS, Workload Identity).
+  - **Automated Remediation (240ms MTTR):** modern_ebpf Falco driver paired with Falco Talon and Calico quarantine policies to isolate compromised pods in < 1s.
+  - **GitOps & Security:** Full-stack delivery via ArgoCD (App-of-Apps) validated by Checkov and Trivy pre-merge CI gates.
 
 - **[k8s-incident-containment-remediation](https://github.com/Jira-saki/k8s-incident-containment-remediation)** `Runtime Security / eBPF`
   * **Kernel Detection:** Falco with `modern_ebpf` driver intercepting unauthorized container syscalls.
