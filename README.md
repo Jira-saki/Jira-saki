@@ -25,9 +25,9 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
   * **Automated Remediation (240ms MTTR):** modern_ebpf Falco driver paired with Falco Talon and Calico quarantine policies to isolate compromised pods in < 1s.
   * **GitOps & Security:** Full-stack delivery via ArgoCD (App-of-Apps) validated by Checkov and Trivy pre-merge CI gates.
 
-- **[Cloud-Native-Hardened-Infrastructure](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)** `Multi-Cloud Platform / SRE`
-  * **1:1 Architectural Parity:** Immutable AWS EKS (Bottlerocket, IRSA) & GCP GKE (COS, Workload Identity) via Terraform.
-  * **Ingress & Observability:** AWS ALB vs. GKE Gateway API; Prometheus Operator with Alertmanager inhibition rules (k6 stress tested: 0% error rate).
+- **[Cloud-Native-Hardened-Infrastructure](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure) Enterprise AWS EKS / DevSecOps & SRE
+  * **Hardened EKS & Immutability:** Immutable Bottlerocket OS (Zero-SSH via SSM Session Manager / `sheltie`), AWS KMS envelope encryption, and IRSA least-privilege pod identity.
+  * **Kernel eBPF & Observability:** Ingress microsegmentation enforced natively by AWS VPC CNI eBPF (`default-deny-ingress`) paired with Prometheus/Grafana full-stack observability (4,635 reqs at 0% error rate on k6 spike test).
 
 - **[k8s-incident-containment-remediation](https://github.com/Jira-saki/k8s-incident-containment-remediation)** `Runtime Security / eBPF`
   * **Kernel Detection:** Falco with `modern_ebpf` driver intercepting unauthorized container syscalls.
