@@ -23,6 +23,10 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
 - **[Cloud-Native-Hardened-Infrastructure](https://github.com/Jira-saki/Cloud-Native-Hardened-Infrastructure)** Enterprise AWS EKS / DevSecOps & SRE
   - **Hardened EKS & Immutability:** Immutable Bottlerocket OS (Zero-SSH via SSM Session Manager / `sheltie`), AWS KMS envelope encryption, and IRSA least-privilege pod identity.
   - **Kernel eBPF & Observability:** Ingress microsegmentation enforced natively by AWS VPC CNI eBPF (`default-deny-ingress`) paired with Prometheus/Grafana full-stack observability (4,635 reqs at 0% error rate on k6 spike test).
+ 
+- **[ai-infra-poc](https://github.com/Jira-saki/ai-infra-poc)** `AI Platform / DevSecOps`
+  * **Shift-Left Security:** Automated Checkov (36/36 passed) and Trivy gates triaging baseline CVEs to 0.
+  * **Hardened Node Baseline:** Ephemeral Bottlerocket EKS with IMDSv2 and KMS CMK; capped at < ¥1,000 per test run via Spot lifecycle.
 
 - **[cloud-workload-modernization-platform](https://github.com/Jira-saki/cloud-workload-modernization-platform)** Enterprise Platform / Zero-Trust GKE
   - **Architecture:** Enterprise reference blueprint migrating legacy multi-tenant workloads to immutable GKE (Container-Optimized OS, Workload Identity).
@@ -37,9 +41,6 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
   * **Zero-Idle-Cost Lakehouse:** Serverless S3/Glue/Athena pipeline with zero crawler runtime via Partition Projection (0.50 KB scan queries).
   * **APPI/GDPR Compliance:** Ingestion-time salted SHA-256 PII pseudonymization with non-blocking DLQ Parquet routing.
 
-- **[ai-infra-poc](https://github.com/Jira-saki/ai-infra-poc)** `AI Platform / DevSecOps`
-  * **Shift-Left Security:** Automated Checkov (36/36 passed) and Trivy gates triaging baseline CVEs to 0.
-  * **Hardened Node Baseline:** Ephemeral Bottlerocket EKS with IMDSv2 and KMS CMK; capped at < ¥1,000 per test run via Spot lifecycle.
 
 <details>
 <summary><b>🔍 View More Engineering Projects (Observability, Linux Internals, AI Telemetry)</b></summary>
