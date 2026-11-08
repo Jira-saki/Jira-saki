@@ -40,6 +40,10 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
 - **[datasecops-lakehouse](https://github.com/Jira-saki/datasecops-lakehouse)** `Privacy Engineering / FinOps`
   * **Zero-Idle-Cost Lakehouse:** Serverless S3/Glue/Athena pipeline with zero crawler runtime via Partition Projection (0.50 KB scan queries).
   * **APPI/GDPR Compliance:** Ingestion-time salted SHA-256 PII pseudonymization with non-blocking DLQ Parquet routing.
+ 
+- **[k8s-logging-pipeline](https://github.com/Jira-saki/k8s-logging-pipeline)** Enterprise Observability / Cloud Security (AWS EKS & IRSA)
+  - **Dual-Destination Pipeline:** Unified container log ingestion using Fluent Bit (DaemonSet) streaming simultaneously to in-cluster Grafana Loki and Amazon CloudWatch Logs.
+  - **Zero-Static-Credentials (IRSA):** Hardened least-privilege pod identity leveraging projected Web Identity Tokens to decrypt runtime secrets via AWS KMS and stream logs without static IAM keys.
 
 
 <details>
