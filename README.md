@@ -4,11 +4,7 @@
 
 **Cloud Platform, DevSecOps & Data Infrastructure Engineer | SRE**  
 Currently based in Osaka 🇯🇵 *(Relocating to Tokyo / Chiba area)*  
-Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 84%), Infrastructure as Code (Terraform), and Privacy-Preserving DataSecOps. Driven by SRE, Runtime Defense, FinOps, and GitOps principles.
-
-
-> 🇯🇵 **永住権（えいじゅうけん）保持・就労制限（しゅうろうせいげん）なし** | 大阪在住（内定（ないてい）後、東京・千葉へ転居（てんきょ）可能）  
-> Linux/インフラ運用・AWS・Kubernetes・Terraform IaC・ランタイムセキュリティ
+Specializing in Hardened AWS Cloud Infrastructure, Kubernetes CKA, Infrastructure as Code (Terraform). Driven by Runtime Defense, FinOps, and GitOps principles.
 
 
 
