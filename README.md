@@ -8,14 +8,9 @@ Specializing in Hardened Multi-Cloud Infrastructure (AWS/GCP), Kubernetes (CKA 8
 
 
 > 🇯🇵 **永住権（えいじゅうけん）保持・就労制限（しゅうろうせいげん）なし** | 大阪在住（内定（ないてい）後、東京・千葉へ転居（てんきょ）可能）  
-> Linux/インフラ運用・AWS/GCP・Kubernetes (CKA 84%)・Terraform IaC・ランタイムセキュリティ
+> Linux/インフラ運用・AWS・Kubernetes・Terraform IaC・ランタイムセキュリティ
 
-<details>
-<summary><b>職務要約・詳細プロフィールを表示</b></summary>
 
-- **職務要約:** Linux/インフラ運用経験。AWS/GCPマルチクラウド設計、Terraform IaCモジュール開発、Kubernetes（CKA 84%合格）運用、Falco/eBPFランタイムセキュリティ、APPI/GDPR準拠のDataSecOpsレイクハウス構築およびFinOpsを推進。
-- **スキル・ポートフォリオ:** [Findy スキルページ](https://findy-code.io/skills-share/hUpw40lAr31N5) にて詳細な職務経歴およびスキル偏差値を公開しています。
-</details>
 
 ---
 
