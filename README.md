@@ -78,4 +78,4 @@ Specializing in Hardened AWS Cloud Infrastructure, Kubernetes CKA, Infrastructur
 - 🛡️ **Google Cybersecurity Specialization** — *Google* (Issued: Oct 2024)
 
 **In Active Preparation**
-- 📊 **Certified Kubernetes Security Specialist (CKS)** — *Linux Foundation* (Target: Nov 2026)
+- 📊 **AWS Certified Security Specialty (SCS)** — *Amazon Web Services* (Target: JAN 2027)
